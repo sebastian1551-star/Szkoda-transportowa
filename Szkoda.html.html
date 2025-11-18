@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Protokół szkody transportowej — mobilny</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; background: #fafafa; display: flex; justify-content: center; }
+  .wrap { width: 55%; max-width: 420px; padding: 10px; }
+  .box { background: #fff; padding: 8px; border-radius: 6px; margin-bottom: 8px; border: 1px solid #ddd; }
+  label { font-weight: bold; font-size: 13px; display: block; margin-bottom: 3px; }
+  input, textarea { width: 60%; padding: 5px; border: 1px solid #ccc; border-radius: 4px; font-size: 13px; }
+  textarea { height: 60px; }
+  h2 { margin-bottom: 8px; font-size: 17px; text-align: center; }
+  .signature-box { border: 1px dashed #aaa; height: 50px; border-radius: 4px; margin-top: 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<h2>Protokół szkody transportowej</h2>
+
+<div class="box">
+  <label>Data zgłoszenia</label>
+  <input type="text" placeholder="dd.mm.rrrr" />
+</div>
+
+<div class="box">
+  <label>Imię i nazwisko zgłaszającego</label>
+  <input type="text" />
+</div>
+
+<div class="box">
+  <label>Nr WZ</label>
+  <input type="text" />
+</div>
+
+<div class="box">
+  <label>Miejsce zdarzenia</label>
+  <input type="text" />
+</div>
+
+<div class="box">
+  <label>Opis uszkodzonego towaru</label>
+  <textarea></textarea>
+</div>
+
+<div class="box">
+  <label>Zdjęcia (wklej linki lub opisy)</label>
+  <textarea placeholder="np. zdjęcie1.jpg"></textarea>
+</div>
+
+<div class="box">
+  <label>Podpis przewoźnika / kuriera</label>
+  <div class="signature-box"></div>
+</div>
+
+<div class="box">
+  <label>Podpis odbiorcy</label>
+  <div class="signature-box"></div>
+</div>
+
+</div>
+</body>
